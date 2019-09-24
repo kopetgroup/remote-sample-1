@@ -1,0 +1,4 @@
+version: '1'
+services:
+  init:
+    runner: python3 apps/crot.py
