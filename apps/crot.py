@@ -11,6 +11,6 @@ while True:
     }
     print(json.dumps(data))
     c = http.request(
-        "POST", "http://logs-01.loggly.com/inputs/69d55737-fc2f-444e-a642-d50f0d514af0/tag/cargo_remote",
+        "POST", "http://logs-01.loggly.com/inputs/69d55737-fc2f-444e-a642-d50f0d514af0/tag/cargo_kopet",
         body=json.dumps(data),
         headers={'Content-Type': 'application/json'}).data
